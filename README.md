@@ -107,6 +107,32 @@ curl -X POST http://localhost:5000/cancelar -H "Content-Type: application/json" 
 9. Parando a Aplicação
 Para parar a aplicação, pressione Ctrl+C no terminal onde o Flask está rodando.
 
-10. Testes e Validações
+Estrutura do Repositório
+perl
+Copy
+nome-do-repositorio/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # Workflow de CI (Integração Contínua)
+├── docs/                          # Diretório para toda a documentação
+│   ├── images/                    # Pasta para armazenar imagens utilizadas na documentação
+│   ├── index.md                   # Página inicial da documentação
+│   ├── instalação.md              # Guia de instalação e configuração
+│   ├── funcionalidades.md         # Detalhamento das funcionalidades
+│   ├── fluxos.md                  # Descrição dos fluxos de processos
+│   ├── casostestes.md             # Casos de teste unitários e integrados
+│   ├── api.md                     # Documentação das APIs
+│   └── contribuição.md            # Instruções para contribuição no projeto
+├── src/                           # Código-fonte da aplicação
+│   ├── app/
+│   ├── models.py
+│   ├── routes.py
+│   └── services.py
+├── README.md                      # Resumo do projeto, instruções rápidas de uso
+├── requirements.txt               # Dependências do projeto
+├── LICENSE                        # Licença do projeto
+└── .gitignore                     # Arquivos a serem ignorados pelo Git
+
+11. Testes e Validações
 Os casos de teste para garantir o correto funcionamento da aplicação podem ser executados usando o pytest ou outro framework de testes que preferir. O código para testes não está incluso neste repositório, mas você pode escrever testes unitários e de integração conforme discutido anteriormente.
 
