@@ -115,14 +115,12 @@ nome-do-repositorio/
 │   └── workflows/
 │       └── ci.yml                # Workflow de CI (Integração Contínua)
 ├── docs/                          # Diretório para toda a documentação
-│   ├── images/                    # Pasta para armazenar imagens utilizadas na documentação
 │   ├── index.md                   # Página inicial da documentação
 │   ├── instalação.md              # Guia de instalação e configuração
 │   ├── funcionalidades.md         # Detalhamento das funcionalidades
 │   ├── fluxos.md                  # Descrição dos fluxos de processos
 │   ├── casostestes.md             # Casos de teste unitários e integrados
 │   ├── api.md                     # Documentação das APIs
-│   └── contribuição.md            # Instruções para contribuição no projeto
 ├── src/                           # Código-fonte da aplicação
 │   ├── app/
 │   ├── models.py
