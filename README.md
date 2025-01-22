@@ -121,15 +121,15 @@ nome-do-repositorio/
 │   ├── fluxos.md                  # Descrição dos fluxos de processos
 │   ├── casostestes.md             # Casos de teste unitários e integrados
 │   ├── api.md                     # Documentação das APIs
-├── src/                           # Código-fonte da aplicação
-│   ├── app/
-│   ├── models.py
-│   ├── routes.py
-│   └── services.py
+├── src/
+|  ├── __init__.py
+|  ├── models.py
+|  ├── routes.py
+|  ├── services.py
+|  ├── utils.py
+└── requirements.txt
 ├── README.md                      # Resumo do projeto, instruções rápidas de uso
-├── requirements.txt               # Dependências do projeto
-├── LICENSE                        # Licença do projeto
-└── .gitignore                     # Arquivos a serem ignorados pelo Git
+
 
 11. Testes e Validações
 Os casos de teste para garantir o correto funcionamento da aplicação podem ser executados usando o pytest ou outro framework de testes que preferir. O código para testes não está incluso neste repositório, mas você pode escrever testes unitários e de integração conforme discutido anteriormente.
